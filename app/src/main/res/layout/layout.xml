@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000">
+
+    <com.moxun.tagcloudlib.view.TagCloudView
+        android:id="@+id/tagcloud"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:autoScrollMode="uniform"
+        app:darkColor="#ff00ff00"
+        app:lightColor="#ffff0000"
+        app:radiusPercent="0.8"
+        app:scrollSpeed="1" />
+
+
+</LinearLayout>
